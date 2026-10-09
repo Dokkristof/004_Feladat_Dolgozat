@@ -1,3 +1,13 @@
+/* 
+* File: Writer.java
+* Author: Doktor Kristóf Márk
+* Copyright: 2026,Doktor Kristóf Márk
+* Group: Szoft II/N
+* Date: 2026-10-09
+* Github: https://github.com/Dokkristof/
+* Licenc: MIT
+*/
+
 import java.io.FileWriter;
 import java.io.IOException;
 
