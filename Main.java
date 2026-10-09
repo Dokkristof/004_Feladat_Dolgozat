@@ -1,4 +1,4 @@
-/* */
+/* 
 * File: Main.java
 * Author: Doktor Kristóf Márk
 * Copyright: 2026,Doktor Kristóf Márk
