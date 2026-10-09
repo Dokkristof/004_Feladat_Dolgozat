@@ -1,7 +1,7 @@
 /* 
 * File: Writer.java
 * Author: Doktor Kristóf Márk
-* Copyright: 2026,Doktor Kristóf Márk
+* Copyright: 2026,Doktor Kristof Márk
 * Group: Szoft II/N
 * Date: 2026-10-09
 * Github: https://github.com/Dokkristof/
@@ -10,7 +10,6 @@
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 
 public class Writer implements Writable {
 
@@ -22,7 +21,7 @@ public class Writer implements Writable {
 
     @Override
     public void writeContent(String content) {
-        try (FileWriter writer = new FileWriter(filePath, StandardCharsets.UTF_8, true)) {
+        try (FileWriter writer = new FileWriter(filePath, true)) {
             writer.write(content + "\n");
             System.out.println("A szöveg kiírva a fájlba.");
         } catch (IOException e) {
