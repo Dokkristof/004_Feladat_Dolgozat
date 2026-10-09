@@ -8,10 +8,18 @@
 * Licenc: MIT
 */
 
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         Writable writer = new Writer("Output.txt");
-        writer.writeContent("Ez egy random szöveg,hogy müködik a fájlba írás");
+
+        System.out.print("Kérem írja be a fájlba mentendő szöveget: ");
+        String userInput = scanner.nextLine();
+
+        writer.writeContent(userInput);
+
+        scanner.close();
     }
 }
